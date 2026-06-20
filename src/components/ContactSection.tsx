@@ -62,7 +62,7 @@ const ContactSection = () => {
       </FadeIn>
 
       {/* Contact cards */}
-          <div className="mx-auto grid max-w-5xl grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
+          <div className="mx-auto grid max-w-[90rem] grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
         {CONTACT_METHODS.map((method, i) => {
           const Icon = method.icon;
           const isExternal = method.href.startsWith('http');
@@ -73,7 +73,7 @@ const ContactSection = () => {
                 href={method.href}
                 target={isExternal ? '_blank' : undefined}
                 rel={isExternal ? 'noopener noreferrer' : undefined}
-                className="group relative flex h-full flex-col justify-between gap-8 sm:gap-10 rounded-[28px] sm:rounded-[32px] border-2 border-[#D7E2EA]/20 bg-[#141418] p-6 sm:p-7 md:p-8 transition-all duration-300 hover:border-[#D7E2EA]/60 hover:bg-[#1a1a20] hover:-translate-y-1"
+                className="group relative flex h-full flex-col justify-between gap-8 sm:gap-10 rounded-[28px] sm:rounded-[32px] border-2 border-[#D7E2EA]/20 bg-[#141418] p-5 sm:p-6 md:p-6 transition-all duration-300 hover:border-[#D7E2EA]/60 hover:bg-[#1a1a20] hover:-translate-y-1"
               >
                 <div className="flex items-start justify-between">
                   <div className="rounded-full border border-[#D7E2EA]/20 p-3 sm:p-3.5 transition-colors duration-300 group-hover:border-[#D7E2EA]/50">
@@ -98,8 +98,8 @@ const ContactSection = () => {
                     {method.label}
                   </span>
                   <span
-                    className="font-medium text-[#D7E2EA] break-all"
-                    style={{ fontSize: 'clamp(1rem, 1.8vw, 1.4rem)' }}
+                    className="font-medium text-[#D7E2EA] break-words"
+                    style={{ fontSize: 'clamp(0.85rem, 1.4vw, 1.25rem)' }}
                   >
                     {method.value}
                   </span>
@@ -112,7 +112,7 @@ const ContactSection = () => {
 
       {/* Footer line */}
       <FadeIn delay={0.4} y={20}>
-        <div className="mx-auto mt-20 sm:mt-24 md:mt-28 flex max-w-5xl flex-col items-center gap-3 border-t border-[#D7E2EA]/10 pt-8 text-center sm:flex-row sm:justify-between">
+        <div className="mx-auto mt-20 sm:mt-24 md:mt-28 flex max-w-[90rem] flex-col items-center gap-3 border-t border-[#D7E2EA]/10 pt-8 text-center sm:flex-row sm:justify-between">
           <span
             className="font-light uppercase tracking-widest text-[#D7E2EA]/50"
             style={{ fontSize: 'clamp(0.7rem, 1.1vw, 0.9rem)' }}

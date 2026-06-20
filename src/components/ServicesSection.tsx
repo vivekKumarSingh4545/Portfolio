@@ -4,27 +4,27 @@ import FadeIn from './FadeIn';
 const SERVICES = [
   {
     number: '01',
-    title: 'UI/UX Design',
-    description:
-      'Designing clean, intuitive interfaces that prioritise user flow, hierarchy, and visual clarity — turning ideas into experiences people actually enjoy using.',
-  },
-  {
-    number: '02',
     title: 'Full Stack Development',
     description:
       'Building scalable, responsive web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) with secure authentication and modern UI.',
   },
   {
-    number: '03',
+    number: '02',
     title: 'Real-Time Systems',
     description:
       'Designing low-latency, real-time multiplayer features and chat systems using Socket.IO and WebRTC with high concurrent user support.',
   },
   {
-    number: '04',
+    number: '03',
     title: 'Competitive Programming',
     description:
       'Strong algorithmic thinking and problem-solving skills, with over 600+ DSA problems solved on platforms like LeetCode and CodeChef.',
+  },
+  {
+    number: '04',
+    title: 'UI/UX Design',
+    description:
+      'Designing clean, intuitive interfaces that prioritise user flow, hierarchy, and visual clarity — turning ideas into experiences people actually enjoy using.',
   },
   {
     number: '05',

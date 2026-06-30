@@ -35,11 +35,11 @@ const PROJECTS: ProjectData[] = [
   {
     number: '03',
     category: 'MERN · WebRTC',
-    name: 'ChatBuddy',
-    liveUrl: 'https://chatbuddy2.vercel.app/',
-    col1Image1: '/ChatBuddy1.png',
-    col1Image2: '/ChatBuddy2.png',
-    col2Image: '/ChatBuddy3.png',
+    name: 'Zync',
+    liveUrl: 'https://zync2.vercel.app/',
+    col1Image1: '/Zync1.png',
+    col1Image2: '/Zync2.png',
+    col2Image: '/Zync3.png',
   },
 ];
 
